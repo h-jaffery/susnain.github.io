@@ -1,0 +1,52 @@
+body {
+    background-color: beige;
+    
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.login h1{
+    font-size: 2.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+}
+
+.textbox {
+    padding: 18px;
+    margin: 15px;
+    width: 65%;
+    border: 2px solid
+}
+
+#submit {
+    padding: 12px;
+    width: 50%;
+    margin: 40px;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: aquamarine;
+    color: black;
+    border: none;
+}
+
+#submit:hover {
+    background-color: coral;
+}
+
+.login a {
+    color: black;
+}
+
+.login a:hover {
+    color:darkgoldenrod;
+}
