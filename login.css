@@ -13,11 +13,11 @@ body {
     background-color: blue;
 }
 
-a{
+#flex-navbar a{
     color:white;
     text-decoration: none;
 }
-a:hover{
+#flex-navbar a:hover{
 
     background-color: pink;
    
