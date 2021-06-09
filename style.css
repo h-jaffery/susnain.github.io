@@ -12,3 +12,25 @@ body{
     color:white;
     background-color: blue;
 }
+.flex-main{
+    display: flex;
+    justify-content: space-around;
+    flex: wrap;
+   border:solid 2px;
+   }
+
+   #box-left{
+       border: solid black 5px;
+      
+       
+   }
+
+
+   #box-right{
+       border: solid black 5px;
+    width:10em ;
+    height:20em ;
+    margin-right: 10em;
+}
+
+   
