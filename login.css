@@ -2,6 +2,27 @@ body {
     background-color: beige;
 }
 
+#flex-navbar
+{   
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding:auto;
+    font-size: 2.4em;
+    color:white;
+    background-color: blue;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+
+    background-color: pink;
+   
+}
+
 .login {
     display: flex;
     flex-direction: column;
