@@ -12,6 +12,16 @@ body{
     color:white;
     background-color: blue;
 }
+
+#flex-foot{
+    display: flex; 
+    justify-content:space-around;
+    padding:auto;
+    font-size: 1.5em;
+    background-color: grey;
+
+
+}
 .flex-main{
     display: flex;
     justify-content: space-around;
@@ -20,17 +30,40 @@ body{
    }
 
    #box-left{
-       border: solid black 5px;
-      
-       
+       width:20em;
+       height: 20em;
+       font-size: 1.3em;
+       border: solid none 5px;  
+       border-radius: 1em;
+       background-color: bisque; 
+       margin: auto;
+       padding: 1em;
    }
 
 
    #box-right{
-       border: solid black 5px;
-    width:10em ;
-    height:20em ;
-    margin-right: 10em;
+    font-size: 1.3em;
+    border-radius: 1em;
+    width:20em;
+    height: 20em;
+    background-color: bisque; 
+    border: solid none 5px;
+    margin: auto;
+    padding: 1em;
 }
 
+#foot2,#foot1,#foot3{
+    margin:auto;
+    padding:2em;
+    text-align: center;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+
+    background-color: pink;
    
+}
