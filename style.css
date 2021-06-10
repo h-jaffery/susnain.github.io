@@ -68,24 +68,3 @@ a:hover{
    
 }
    
-.rentForm{
-    width:50%;
-    height:70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-    background-color: aqua;
-}
-
-#title{
-    font-size: 3em ;
-    text-decoration: underline;
-    text-align: center;
-}
-
-.OptionRent {
-    width: 45%;
-    height: 10%;
-    font-weight: 600;
-    
-}
