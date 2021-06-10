@@ -7,6 +7,7 @@ body{
 
 #flex-navbar
 {   
+    width: 100%;
     display:flex;
     flex-direction: row;
     justify-content:space-around;
@@ -14,6 +15,7 @@ body{
     font-size: 2.4em;
     color:white;
     background-color: blue;
+    
 }
 
 #flex-foot{
@@ -29,30 +31,32 @@ body{
     display: flex;
     justify-content: space-around;
     flex: wrap;
-   border:solid 2px;
+    border:solid none 2px;
    }
 
    #box-left{
-       width:20em;
-       height: 20em;
+       width:10em;
+       height: 10em;
        font-size: 1.3em;
        border: solid none 5px;  
        border-radius: 1em;
        background-color: bisque; 
        margin: auto;
        padding: 1em;
+       margin-top: 1em;
    }
 
 
    #box-right{
     font-size: 1.3em;
     border-radius: 1em;
-    width:20em;
-    height: 20em;
+    width:10em;
+    height: 10em;
     background-color: bisque; 
     border: solid none 5px;
     margin: auto;
     padding: 1em;
+    margin-top: 1em;
 }
 
 #foot2,#foot1,#foot3{
@@ -90,8 +94,8 @@ a:hover{
     padding: 0%;
   }
   
-.text {
-      clear: both;
+  .text {
+    clear: both;
     width:49%;
     height: 100%;
     float: right;
@@ -117,6 +121,41 @@ a:hover{
     color:black;
 }
 
+.image{
+margin-top:2em;
+width:100%;
+height:50%;
+margin-right:0em;
+margin-left:0em;
+}
+
+.latest{
+    margin-right:10em;
+    width:50em;
+    border:solid none 1px;
+    padding:2em;
+    font-size: 1.2em;
+    }
+p{
+    font-size:2em;
+}
+
+#property{
+ font-size: 1.5em;
+ color:blue;
+ font-weight: bold;
+}
+
+#links{
+color:blue;
+}
+
+#subhead{
+margin-top: 2em;
+}
+.imag{
+width:50%;
+}
 .contactInfo a{
     color: black;
     text-decoration: underline;
