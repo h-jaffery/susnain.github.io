@@ -3,6 +3,7 @@
 
 body{
     background-color: white;
+    font-family:Lato;
 }
 
 #flex-navbar
@@ -12,17 +13,17 @@ body{
     flex-direction: row;
     justify-content:space-around;
     padding:auto;
-    font-size: 4.5vh;
+    font-size: 2.5vw;
     color:white;
     background-color: blue;
-    
+
 }
 
 #flex-foot{
     display: flex; 
     justify-content:space-around;
     padding:auto;
-    font-size: 3vh;
+    font-size: 1.5vw;
     background-color: grey;
 
 
@@ -37,7 +38,7 @@ body{
    #box-left{
        width:10em;
        height: 10em;
-       font-size: 1.5vw;
+       font-size: 1.2vw;
        border: solid none 5px;  
        border-radius: 1em;
        background-color: bisque; 
@@ -48,7 +49,7 @@ body{
 
 
    #box-right{
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     border-radius: 1em;
     width:10em;
     height: 10em;
@@ -63,7 +64,7 @@ body{
     margin:auto;
     padding:2em;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.1vw;
 }
 
 a{
@@ -91,7 +92,8 @@ a:hover{
     border: solid black 0.1em;
     border-right: solid black 0.1em;
     padding: 0%;
-    
+    background-color: burlywood;
+    font-size: 1.2vw;
   }
   
   .text {
@@ -134,16 +136,20 @@ margin-left:0em;
     width:50em;
     border:solid none 1px;
     padding:2em;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     }
 p{
     font-size:1.8vw;
 }
 
 #property{
- font-size: 1vw;
+ font-size: 1.5vw;
  color:blue;
- font-weight: bold;
+ font-weight: bolder;
+}
+
+#prop{
+    font-size: 1.2vw;
 }
 
 #links{
@@ -167,3 +173,9 @@ width:50%;
       width: 100%;
     }
   }
+
+  .heading{
+    font-weight: bolder;
+    font-size: 1.5vw;
+  }
+
