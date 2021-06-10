@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap%27');
+
+
 body{
     background-color: white;
 }
@@ -80,13 +83,14 @@ a:hover{
   .item {
     height: 10%;
     width: 40%;
+    margin-top:2%;
     margin-bottom: 2%;
     border: solid black 2px;
     border-right: solid black 2px;
     padding: 0%;
   }
   
-  .text {
+.text {
       clear: both;
     width:49%;
     height: 100%;
@@ -97,15 +101,23 @@ a:hover{
 .item img{
     width: 45%;
     height: auto;
-    border:solid black 2px;
+    box-sizing: border-box;
+    border-right: solid black 0.1em;
+
     overflow: hidden;
 }
 
 .contactInfo{
     text-align:center;
     padding: 2%;
+    color: black;
 }
 
 .Click{
     color:black;
+}
+
+.contactInfo a{
+    color: black;
+    text-decoration: underline;
 }
