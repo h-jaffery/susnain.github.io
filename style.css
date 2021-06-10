@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap%27');
 
 
+*{
+    font-family: lato,sans-serif;
+    font-size:2.5em;
+}
 
 body{
     background-color: white;
-    font-family:Lato, sans-serif;
 }
+
 .Brand{
     color:rgb(14, 252, 220);
-    font-family:monospace;
+    font-family:monospace, monaco;
+    
 }
 #flex-navbar
 {   
