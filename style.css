@@ -85,8 +85,8 @@ a:hover{
     width: 40%;
     margin-top:2%;
     margin-bottom: 2%;
-    border: solid black 2px;
-    border-right: solid black 2px;
+    border: solid black 0.1em;
+    border-right: solid black 0.1em;
     padding: 0%;
   }
   
