@@ -12,7 +12,7 @@ body{
     flex-direction: row;
     justify-content:space-around;
     padding:auto;
-    font-size: 2.4em;
+    font-size: 4.5vh;
     color:white;
     background-color: blue;
     
@@ -22,7 +22,7 @@ body{
     display: flex; 
     justify-content:space-around;
     padding:auto;
-    font-size: 1.5em;
+    font-size: 3vh;
     background-color: grey;
 
 
@@ -37,7 +37,7 @@ body{
    #box-left{
        width:10em;
        height: 10em;
-       font-size: 1.3em;
+       font-size: 1.5vw;
        border: solid none 5px;  
        border-radius: 1em;
        background-color: bisque; 
@@ -48,7 +48,7 @@ body{
 
 
    #box-right{
-    font-size: 1.3em;
+    font-size: 1.5vw;
     border-radius: 1em;
     width:10em;
     height: 10em;
@@ -63,6 +63,7 @@ body{
     margin:auto;
     padding:2em;
     text-align: center;
+    font-size: 1.5vw;
 }
 
 a{
@@ -74,8 +75,6 @@ a:hover{
     background-color: pink;
    
 }
-   
-
 
 .main-container{
     display: flex;
@@ -92,6 +91,7 @@ a:hover{
     border: solid black 0.1em;
     border-right: solid black 0.1em;
     padding: 0%;
+    
   }
   
   .text {
@@ -100,6 +100,7 @@ a:hover{
     height: 100%;
     float: right;
     margin-top: 5%;
+    font-size:1.2vw;
   }
   
 .item img{
@@ -107,7 +108,6 @@ a:hover{
     height: auto;
     box-sizing: border-box;
     border-right: solid black 0.1em;
-
     overflow: hidden;
 }
 
@@ -134,14 +134,14 @@ margin-left:0em;
     width:50em;
     border:solid none 1px;
     padding:2em;
-    font-size: 1.2em;
+    font-size: 1.5vw;
     }
 p{
-    font-size:2em;
+    font-size:1.8vw;
 }
 
 #property{
- font-size: 1.5em;
+ font-size: 1vw;
  color:blue;
  font-weight: bold;
 }
@@ -160,3 +160,10 @@ width:50%;
     color: black;
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 620px) {
+    
+    .flex-main,.latest,.flex-foot,#foot1,#foot2,#foot3{
+      width: 100%;
+    }
+  }
