@@ -83,3 +83,29 @@ body {
 img {
     width: 18%
 }
+
+.info2 {
+    line-height: 1.6;
+}
+
+.info2 ul {
+    list-style-type: none;
+}
+
+.info2 .city2 {
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.info2 .temp2 {
+    font-size: 3.5rem;
+}
+
+.info2 .desc2 {
+    font-size: 2rem;
+}
+
+.info2 .message2 {
+    font-size: 1.5rem;
+    padding: 1em;
+}
