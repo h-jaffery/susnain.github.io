@@ -23,8 +23,7 @@ button.addEventListener('click', () => {
                                     <hr>
                                     <li class="message">The current weather in ${data.city.name}, ${data.city.country} is:</li>
                                     <li class="temp">${data.list[0].main.temp}°c</li>
-                                    <li class="desc">${data.list[0].weather[0].description}</li>
-                                    
+                                    <li class="desc">${data.list[0].weather[0].description}</li>    
                                 </ul>
                                 `; 
             info2.innerHTML = `
@@ -33,11 +32,7 @@ button.addEventListener('click', () => {
                                     <li class="message2">Tomorrow's forecast for ${data.city.name}, ${data.city.country} is:</li>
                                     <li class="temp2">${data.list[8].main.temp}°c</li>
                                     <li class="desc2">${data.list[8].weather[0].description}</li>
-                                    
                                 </ul>
                                 `; 
-
-
         });
-
 });
