@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap%27');
 
 :root {
-    font-size: 16px;
     font-family: lato, Helvetica, sans-serif;
     color: black;
 }
@@ -16,7 +15,6 @@ body {
     margin: 0 auto;
     text-align: center;
     background-color: rgb(212, 212, 194);
-    height: 100%;
 }
 
 .container h1 {
@@ -62,10 +60,6 @@ body {
     list-style-type: none;
 }
 
-.info .city {
-    font-size: 4rem;
-    line-height: 1;
-}
 
 .info .temp {
     font-size: 3.5rem;
@@ -92,11 +86,6 @@ img {
     list-style-type: none;
 }
 
-.info2 .city2 {
-    font-size: 4rem;
-    line-height: 1;
-}
-
 .info2 .temp2 {
     font-size: 3.5rem;
 }
@@ -108,4 +97,51 @@ img {
 .info2 .message2 {
     font-size: 1.5rem;
     padding: 1em;
+}
+
+@media (max-width: 500px) {
+    .info {
+        line-height: 1;
+    }
+
+    .info .temp {
+        font-size: 1.75rem;
+    }
+    
+    .info .desc {
+        font-size: 1rem;
+    }
+    
+    .info .message {
+        font-size: 0.75rem;
+        padding: 0.75em;
+    }
+    
+    img {
+        width: 18%
+    }
+    
+    .info2 {
+        line-height: 1;
+    }
+        
+    
+    .info2 .temp2 {
+        font-size: 1.75rem;
+    }
+    
+    .info2 .desc2 {
+        font-size: 1rem;
+    }
+    
+    .info2 .message2 {
+        font-size: 0.75rem;
+        padding: 0.75em;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    
 }
