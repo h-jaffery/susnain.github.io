@@ -39,19 +39,22 @@ body {
 }
 
 .enterb {
-    padding: 1em 3em;
-    margin: 1em 0;
-    font-weight: bold;
-    border: 2px solid black;
+    padding: 0.5em 1em;
+    margin: 0.8em 0;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    border: 2px solid white;
     background: transparent;
+    color: white;
 }
 
 .enterb:hover {
     background-color: white;
+    color: rgb(226, 220, 219);
 }
 
+
 .info {
-    margin: 80px 0px;
     line-height: 1.6;
 }
 
@@ -60,12 +63,12 @@ body {
 }
 
 .info .city {
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 1;
 }
 
 .info .temp {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .info .desc {
@@ -73,6 +76,10 @@ body {
 }
 
 .info .message {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 1em;
+}
+
+img {
+    width: 18%
 }

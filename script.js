@@ -12,14 +12,17 @@ button.addEventListener('click', () => {
         .then(res => res.json())
         .then(data => {
 
+            document.querySelector(".icon").src = "http://openweathermap.org/img/wn/"+ data.weather[0].icon +"@2x.png";
+
             inputText.value = " ";
 
             info.innerHTML = `
                                 <ul>
-                                    <li class="message">The current weather in ${data.name} is:</li>
-                                    <li class="desc">${data.weather[0].description}</li>
-                                    <li class="city">${data.name}</li>
+                                    <hr>
+                                    <li class="message">The current weather in ${data.name}, ${data.sys.country} is:</li>
                                     <li class="temp">${data.main.temp}°c</li>
+                                    <li class="desc">${data.weather[0].description}</li>
+                                    
                                 </ul>
                                 `; 
 
