@@ -11,27 +11,27 @@ button.addEventListener('click', () => {
 
     fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${cityInput}&units=metric&APPID=${API_Key}`)
         .then(res => res.json())
-        .then(data => {
+        .then(data1 => {
 
-            document.querySelector(".icon").src = "http://openweathermap.org/img/wn/"+ data.list[0].weather[0].icon +"@2x.png";
-            document.querySelector(".icon2").src = "http://openweathermap.org/img/wn/"+ data.list[8].weather[0].icon +"@2x.png";
+            document.querySelector(".icon").src = "http://openweathermap.org/img/wn/"+ data1.list[0].weather[0].icon +"@2x.png";
+            document.querySelector(".icon2").src = "http://openweathermap.org/img/wn/"+ data1.list[8].weather[0].icon +"@2x.png";
 
             inputText.value = " ";
 
             info.innerHTML = `
                                 <ul>
                                     <hr>
-                                    <li class="message">The current weather in ${data.city.name}, ${data.city.country} is:</li>
-                                    <li class="temp">${data.list[0].main.temp}°c</li>
-                                    <li class="desc">${data.list[0].weather[0].description}</li>    
+                                    <li class="message">The current weather in ${data1.city.name}, ${data1.city.country} is:</li>
+                                    <li class="temp">${data1.list[0].main.temp}°c</li>
+                                    <li class="desc">${data1.list[0].weather[0].description}</li>    
                                 </ul>
                                 `; 
             info2.innerHTML = `
                                 <ul>
                                     <hr>
-                                    <li class="message2">Tomorrow's forecast for ${data.city.name}, ${data.city.country} is:</li>
-                                    <li class="temp2">${data.list[8].main.temp}°c</li>
-                                    <li class="desc2">${data.list[8].weather[0].description}</li>
+                                    <li class="message2">Tomorrow's forecast for ${data1.city.name}, ${data1.city.country} is:</li>
+                                    <li class="temp2">${data1.list[8].main.temp}°c</li>
+                                    <li class="desc2">${data1.list[8].weather[0].description}</li>
                                 </ul>
                                 `; 
         });
