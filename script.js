@@ -4,7 +4,6 @@ const info = document.querySelector('.info');
 const info2 = document.querySelector('.info2');
 const API_Key = "cb0ea74d53164899bdd9ffd9ecbfb055";
 
-
 window.addEventListener("load", () => {
     let long;
     let lat;
@@ -45,7 +44,6 @@ window.addEventListener("load", () => {
         })
     }
 })
-
 
 button.addEventListener('click', () => {
 
