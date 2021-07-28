@@ -10,7 +10,7 @@ I also need to make the user able to press enter, with it acting as the submit b
 
 ## Usage
 
-If you'd like to [try it out](https://susnain.github.io/mainpage.html), just enter the city name and click on submit!
+If you'd like to [try it out](https://susnain.github.io/mainpage.html), just enter the city name and click on submit
 
   
 ## Run Locally
